@@ -3,7 +3,6 @@ import declaration as d
 from declaration import *
 import pygame
 import classes as c
-import method as m
 import userinterface as ui
 import simulation as simu
 import random
@@ -121,34 +120,6 @@ while run:
 			game.open_game ()
 			button_open.state = "depressed"
 
-		if button_delete.state == "pressed":
-
-			if event.type == pygame.MOUSEBUTTONDOWN and event.button == LEFT:
-
-				# check whatselection under the mouse position.
-				result = False
-				col, row = m.get_colrow_from_coordinates(Mouse_x, Mouse_y)
-
-				# is it a machine?
-
-				objecttodelete = m.find_machine(col, row)
-				if objecttodelete is not None:
-					d.machine_list.remove(objecttodelete)
-					pygame.sprite.Sprite.kill(objecttodelete)
-					result = False
-				result = m.delete_rel(objecttodelete,  result)
-
-				# is it a cargo?
-
-				objecttodelete = m.find_cargo("Above", col, row)
-				if objecttodelete is not None:
-					d.cargo_list.remove(objecttodelete)
-					pygame.sprite.Sprite.kill(objecttodelete)
-
-				objecttodelete = m.find_cargo("Below", col, row)
-				if objecttodelete is not None:
-					d.cargo_list.remove(objecttodelete)
-					pygame.sprite.Sprite.kill(objecttodelete)
 
 		if placement_type != "":
 
