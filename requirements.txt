@@ -1,0 +1,17 @@
+pip~=22.2.1
+wheel~=0.37.1
+Pillow~=9.4.0
+pymusicxml~=0.5.5
+clockblocks~=0.6.7
+expenvelope~=0.7.0
+Arpeggio~=2.0.0
+MIDIUtil~=1.2.1
+python-osc~=1.8.1
+setuptools~=63.2.0
+pygame~=2.1.2
+numpy~=1.24.2
+pyglet~=1.5.27
+matplotlib~=3.7.1
+packaging~=23.0
+pyparsing~=3.0.9
+torch~=1.13.1
