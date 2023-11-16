@@ -6,7 +6,7 @@ There are three objects
   c/Predators : they can see thru a cone of vision, move or not, and eat or not preys. They reproduce if enough energy, and die if no more energy 
 
 #Edit declaration.py
-  - number_plants = 200 , this is the original number of plants on the grid
+  - number_plants = 200 , this is the original number of plants on the grid 
 
 #Edit classes.py
 /for predators
