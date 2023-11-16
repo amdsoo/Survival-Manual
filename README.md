@@ -10,16 +10,16 @@ There are three objects
 
 #Edit classes.py
 /for predators
-		self.vision_angle = 20
-		self.vision_distance = 200
-		self.speed = 3
-		self.direction_change_angle = 20
-		self.energy_reserve_max = 1500
-		self.energy_reserve = 600
-		self.energy_reproduction= 1200
-		self.energy_reproduction_cost= 400
-		self.energy_per_move  = 30
-		self.energy_per_cycle = 2
+		self.vision_angle = 20,
+		self.vision_distance = 200,
+		self.speed = 3,
+		self.direction_change_angle = 20,
+		self.energy_reserve_max = 1500,
+		self.energy_reserve = 600,
+		self.energy_reproduction= 1200,
+		self.energy_reproduction_cost= 400,
+		self.energy_per_move  = 30,
+		self.energy_per_cycle = 2,
 /for prey
 		self.vision_angle = 180
 		self.vision_distance = 150
